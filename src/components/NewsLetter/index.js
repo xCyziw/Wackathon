@@ -37,7 +37,7 @@ export class newsSign extends React.Component{
           }));
         const classes = useStyles();
         return(
-                <div class='colored-box'>
+                <div className='colored-box'>
                     <div> 
                         <h2>Sign up for our mailing list</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
@@ -55,12 +55,17 @@ export class newsSign extends React.Component{
     }
 }
 
-export class newsFormatted extends React.Component{
+class index extends React.Component{
     render(){
         return(
-
+            <div className='news'>
+                <newsInfo/>
+                <newsSign/>
+            </div>
         )
     }
 }
+
+export default index;
 
 
