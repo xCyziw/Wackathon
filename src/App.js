@@ -4,22 +4,20 @@ import './App.css';
 import NavBar from "./components/Navbar/index";
 import Home from "./components/Home"
 import NewsLetter from "./components/NewsLetter/index";
-import DropOff from './pages/DropOff'
+import DropOff from './pages/DropOff';
+import Mission from "./components/Mission/index";
 
 class App extends Component {
   render() {
     return (
       <>
-        <NavBar />
-        <Home />
-        <NewsLetter/>
         <Router basename={ process.env.PUBLIC_URL }>
           <NavBar />
           <Route exact path='/' component={Home} className="page-container" />
           <Route exact path='/donate' component={DropOff} />
           {/* <Route exact path='/volunteer' component={Volunteer} /> */}
         </Router>
-
+        <Mission />
       </>
     );
   }
