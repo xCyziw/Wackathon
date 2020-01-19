@@ -21,8 +21,6 @@ class index extends Component {
                             <img src={Woman} alt="woman" className="woman" />
                             <img src={Family} alt="family" className="family" />
                         </div>
-                        {/* <Mission />
-                        <Impact /> */}
 
                     </div>
                 </div>
