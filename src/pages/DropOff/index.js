@@ -41,8 +41,72 @@ export default class DropOff extends Component {
   render() {
     return (
       <>
+        <section className='locations'>
+          <h1>Drop off locations</h1>
+        </section>
 
+        <section className='address'>
+          <h4>Seattle Children's Hospital</h4>
+          <p>
+            4800 Sandpoint Way NE
+            <br></br>
+            Seattle WA, 98105
+          </p>
+        </section>
 
+        <section className='address'>
+          <h4>Seattle Children's Hospital</h4>
+          <p>
+            4800 Sandpoint Way NE
+          <br></br>
+            Seattle WA, 98105
+        </p>
+        </section>
+
+        <section className='address'>
+          <h4>Seattle Children's Hospital</h4>
+          <p>
+            4800 Sandpoint Way NE
+          <br></br>
+            Seattle WA, 98105
+        </p>
+        </section>
+
+        <section className='address'>
+          <h4>Seattle Children's Hospital</h4>
+          <p>
+            4800 Sandpoint Way NE
+          <br></br>
+            Seattle WA, 98105
+        </p>
+        </section>
+
+        <section className='address'>
+          <h4>Seattle Children's Hospital</h4>
+          <p>
+            4800 Sandpoint Way NE
+          <br></br>
+            Seattle WA, 98105
+        </p>
+        </section>
+
+        <section className='address'>
+          <h4>Seattle Children's Hospital</h4>
+          <p>
+            4800 Sandpoint Way NE
+          <br></br>
+            Seattle WA, 98105
+        </p>
+        </section>
+
+        <section className='address'>
+          <h4>Seattle Children's Hospital</h4>
+          <p>
+            4800 Sandpoint Way NE
+          <br></br>
+            Seattle WA, 98105
+        </p>
+        </section>
 
       <section className="container">
         <section className="info">
@@ -77,7 +141,7 @@ export default class DropOff extends Component {
           </section>
 
           <section className='drop'>
-            <label>Drop off Location</label>
+            <label>Drop off Location</label><br></br>
             <Input placeholder="Drop Off Location" inputProps={{ 'aria-label': 'description' }} />
           </section>
         </form>
