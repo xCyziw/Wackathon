@@ -40,6 +40,8 @@ export default class DropOff extends Component {
   render() {
     return (
       <div>
+        <h1>Drop Off Furniture Information</h1>
+        <p>Lorem ipsum</p>
         <form className={this.classes.root} noValidate autoComplete="off">
           <Input placeholder="First Name" inputProps={{ 'aria-label': 'description' }} />
           <Input placeholder="Last Name" inputProps={{ 'aria-label': 'description' }} />
