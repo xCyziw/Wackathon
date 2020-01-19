@@ -41,73 +41,76 @@ export default class DropOff extends Component {
   render() {
     return (
       <>
-        <section className='locations'>
-          <h1>Drop off locations</h1>
-        </section>
-
-        <section className='address'>
-
-          <section>
-            <h4>Seattle Children's Hospital</h4>
-            <p>
-              4800 Sandpoint Way NE
-            <br></br>
-              Seattle WA, 98105
-            </p>
-          </section>
-
-          <section>
-            <h4>Seattle Children's Hospital</h4>
-            <p>
-              4800 Sandpoint Way NE
-            <br></br>
-              Seattle WA, 98105
-            </p>
-          </section>
-
-          <section>
-            <h4>Seattle Children's Hospital</h4>
-            <p>
-              4800 Sandpoint Way NE
-            <br></br>
-              Seattle WA, 98105
-            </p>
-          </section>
-
-        </section>
-
-        <section className='address1'>
-
-          <section className='address'>
-            <h4>Seattle Children's Hospital</h4>
-            <p>
-              4800 Sandpoint Way NE
-            <br></br>
-              Seattle WA, 98105
-          </p>
+        <div className='location-container'>
+          <section className='locations'>
+            <h1>Drop off locations</h1>
           </section>
 
           <section className='address'>
-            <h4>Seattle Children's Hospital</h4>
-            <p>
-              4800 Sandpoint Way NE
-            <br></br>
-              Seattle WA, 98105
-          </p>
+
+            <section>
+              <h4>Seattle Children's Hospital</h4>
+              <p>
+                4800 Sandpoint Way NE
+              <br></br>
+                Seattle WA, 98105
+              </p>
+            </section>
+
+            <section>
+              <h4>Seattle Children's Hospital</h4>
+              <p>
+                4800 Sandpoint Way NE
+              <br></br>
+                Seattle WA, 98105
+              </p>
+            </section>
+
+            <section>
+              <h4>Seattle Children's Hospital</h4>
+              <p>
+                4800 Sandpoint Way NE
+              <br></br>
+                Seattle WA, 98105
+              </p>
+            </section>
+
           </section>
 
-          <section className='address'>
-            <h4>Seattle Children's Hospital</h4>
-            <p>
-              4800 Sandpoint Way NE
-            <br></br>
-              Seattle WA, 98105
-          </p>
+          <section className='address1'>
+
+            <section className='address'>
+              <h4>Seattle Children's Hospital</h4>
+              <p>
+                4800 Sandpoint Way NE
+              <br></br>
+                Seattle WA, 98105
+            </p>
+            </section>
+
+            <section className='address'>
+              <h4>Seattle Children's Hospital</h4>
+              <p>
+                4800 Sandpoint Way NE
+              <br></br>
+                Seattle WA, 98105
+            </p>
+            </section>
+
+            <section className='address'>
+              <h4>Seattle Children's Hospital</h4>
+              <p>
+                4800 Sandpoint Way NE
+              <br></br>
+                Seattle WA, 98105
+            </p>
+            </section>
+
           </section>
 
-        </section>
+        </div>
 
-        <section className="container">
+        <div className="container1">
           <section className="info">
             <h1>Drop Off Furniture Information</h1>
             <p>Lorem ipsum dolor sit amet,</p>
@@ -144,7 +147,8 @@ export default class DropOff extends Component {
               <Input placeholder="Drop Off Location" inputProps={{ 'aria-label': 'description' }} />
             </section>
           </form>
-        </section>
+          
+        </div>
       </>
     )
   }

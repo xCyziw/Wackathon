@@ -4,8 +4,8 @@ import './App.css';
 import NavBar from "./components/Navbar/index";
 import Home from "./components/Home"
 import DropOff from './pages/DropOff'
-import Mission from "./components/Mission/index"
-import Impact from "./components/Impact/index"
+// import Mission from "./components/Mission/index"
+// import Impact from "./components/Impact/index"
 
 class App extends Component {
   render() {
@@ -17,8 +17,8 @@ class App extends Component {
           <Route exact path='/donate' component={DropOff} />
           {/* <Route exact path='/volunteer' component={Volunteer} /> */}
         </Router>
-        <Mission />
-        <Impact />
+        {/* <Mission />
+        <Impact /> */}
       </>
     );
   }
