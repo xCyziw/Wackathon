@@ -11,7 +11,7 @@ class index extends Component {
         return (
             <div className="container">
                 <div className="mission">
-                    <div className="row">
+                    <div className="missionRow">
                         <h1>[Vision statement here blahablahdsaklfslfj alkfjaslfjlsajfljslf jlajflajf]</h1>
                         <div className="line"></div>
                     </div>
@@ -24,7 +24,7 @@ class index extends Component {
                             </p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="missionRow">
                         <div className="column">
                         <img src={People} alt="People" className="missionImage" />
                         </div>
