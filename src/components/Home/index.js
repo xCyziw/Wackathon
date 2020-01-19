@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import Woman from "../../assets/images/img-2.jfif";
 import Family from "../../assets/images/img-1.jpg";
-import Mission from "../Mission/index";
+
 
 class index extends Component {
     render() {
@@ -15,7 +15,7 @@ class index extends Component {
                             <p className="info">
                                 Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras enim elit, mattis ac magna non
                         </p>
-                            <button className="learn">Learn More</button>
+                            <button className="button-round-primary">Learn More</button>
                         </div>
                         <div className="column">
                             <img src={Woman} alt="woman" className="woman" />
@@ -24,7 +24,7 @@ class index extends Component {
 
                     </div>
                 </div>
-                <Mission />
+                
             </>
         );
     }

@@ -1,19 +1,16 @@
-.container {
+.impact-container {
     width: 100%;
     height: auto;
-    background-color: #EDDCE8;
 }
 
-.mission {
+.impact {
     width: 1184px;
     height: auto;
     margin: auto;
     padding: 64px 0 64px 0;
-
-
 }
 
-.missionRow {
+.impactRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,17 +20,17 @@
     text-align: center;
 }
 
-.line {
-    width: 240px;
+.line2 {
+    position: static;
+    width: 79px;
     height: 0px;
-    border: 4px solid #E4A13C;
-    flex: none;
-    order: 1;
-    align-self: center;
-    margin: 64px 64px;
+    left: 0px;
+    top: 60px;
+    border: 2px solid #E4A13C;
+    margin: 24px 0;
 }
 
-.missionInfo {
+.impactInfo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -46,16 +43,9 @@
     margin-top: 16px;
 }
 
-.missionTitle {
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    color: #2F65A5;
-    font-style: normal;
-}
-
-.missionImage {
+.impactImage {
     position: static;
-    width: 100%;
+    width: 373px;
     height: 207px;
     left: 0px;
     top: 0px;
@@ -67,6 +57,26 @@
     object-fit: cover;
 }
 
-.missionImage2 {
+.impactImage2 {
     object-position: 0 35%;
+}
+.impacts {
+    width: 100%;
+    border-radius: 0 32px 32px 32px;
+    height: auto;
+    background-color: #F1F1F1;
+    padding: 64px;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+}
+.item1 {
+    order: 1;
+    width: 50%;
+}
+.item2 {
+    order: 2;
+    width: 50%;
 }
