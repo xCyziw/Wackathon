@@ -21,8 +21,12 @@
 .news{
     display: flex;
     flex-direction: row;
-    margin: 64px 128px 64px 128px;
+    padding: 64px 0;
+    max-width: 1184px;
+    margin: auto;
 }
+
+
 
 .aye{
     position: static;
