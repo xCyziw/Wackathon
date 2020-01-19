@@ -18,7 +18,7 @@
 .news{
     display: flex;
     flex-direction: row;
-    margin: 0 128px 0 128px;
+    margin: 64px 128px 64px 128px;
 }
 
 .aye{
