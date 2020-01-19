@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -14,9 +15,9 @@ class index extends Component {
                         <Typography variant="h5" className="title">
                             Uplift
                         </Typography>
-                        <button className="navButton">Mission</button>
-                        <button className="navButton">Volunteer</button>
-                        <button className="donate">Donate Furniture</button>
+                        <button className="navButton"><Link to='/'>Mission</Link></button>
+                        <button className="navButton"><Link to='/volunteer'>Volunteer</Link></button>
+                        <button className="donate"><Link to='/donate'>Donate Furniture</Link></button>
                     </Toolbar>
                 </AppBar>
             </div>
