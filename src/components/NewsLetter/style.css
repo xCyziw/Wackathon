@@ -3,3 +3,32 @@
     color: #A8177F;
 }
 
+.colored-box{
+
+    flex-direction: column;
+    width: 450px;
+    height: 633px;
+    background: #E4A13C;
+}
+
+.colored-content{
+    padding: 64px;
+}
+
+.news{
+    display: flex;
+    flex-direction: row;
+    margin: 0 128px 0 128px;
+}
+
+.aye{
+    position: static;
+    width: 636px;
+    height: 522px;
+    left: 128px;
+    top: 119.5px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 98px 0px;
+}

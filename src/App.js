@@ -10,6 +10,7 @@ class App extends Component {
       <>
         <NavBar />
         <Home />
+        <NewsLetter/>
       </>
     );
   }
