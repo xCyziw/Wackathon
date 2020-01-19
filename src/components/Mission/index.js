@@ -27,7 +27,7 @@ class index extends Component {
                         <img src={People} alt="People" className="missionImage" />
                         </div>
                         <div className="column">
-                        <img src={Dad} alt="Dad" className="missionImage missionImage2" />
+                        <img src={Dad} alt="Dad" className="missionImage" />
                         </div>
                         <div className="column">
                         <img src={Mom} alt="Mom" className="missionImage" />
