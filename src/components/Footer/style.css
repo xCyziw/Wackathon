@@ -1,0 +1,14 @@
+.footerLinks{
+    flex-direction: row;
+
+}
+
+.footerIcons{
+
+}
+
+footer {
+    background-color: #2F65A5;
+    width: 1440px;
+    height: 221px;
+}

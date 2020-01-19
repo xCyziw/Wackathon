@@ -30,7 +30,7 @@
     flex: none;
     order: 1;
     align-self: center;
-    margin: 64px 64px;
+    margin: 64px auto;
 }
 
 .missionInfo {

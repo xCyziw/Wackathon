@@ -1,33 +1,32 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import Facebook from "../../assets/icons/iconfinder_facebook_circle_color_107175 1.svg";
+import Ig from "../../assets/icons/iconfinder_instagram_circle_color_107172 1.svg";
+import Twitter from "../../assets/icons/iconfinder_twitter_circle_color_107170 1.svg";
+import Youtube from "../../assets/icons/iconfinder_youtube_circle_color_107167 1.svg";
 
-const useStyles = makeStyles({
-  root: {
-    width: 500,
-  },
-});
 
-export default function Footer() {
-  const classes = useStyles();
-  const [value, setValue] = React.useState(0);
+class index extends React.Component{
+    render(){
+        return(
+            <footer>
+                <div>
+                    <ul className="footerLinks">
+                        <li><a href="#e">Mission</a></li>
+                        <li><a href="#z">Volunteer</a></li>
+                        <li><a href="#b">Donate</a></li>
+                        <li><a href="#c">Contact</a></li>
+                    </ul>
 
-  return (
-    <BottomNavigation
-      value={value}
-      onChange={(event, newValue) => {
-        setValue(newValue);
-      }}
-      showLabels
-      className={classes.root}
-    >
-      <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
-    </BottomNavigation>
-  );
+                    <ul className="footerIcons">
+                        <li><img src={Facebook} alt='yea'></img></li>
+                        <li><img src= {Ig} alt='yea'></img></li>
+                        <li><img src={Twitter} alt='yea'></img></li>
+                        <li><img src={Youtube} alt='yea'></img></li>
+                    </ul>
+                </div>
+            </footer>
+        )
+    }
 }
+
+export default index;
