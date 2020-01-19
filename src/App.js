@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from "./components/Navbar/index";
 import Home from "./components/Home"
-import NewsLetter from "./components/NewsLetter/index";
 import DropOff from './pages/DropOff'
 
 class App extends Component {

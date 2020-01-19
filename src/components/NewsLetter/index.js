@@ -9,18 +9,23 @@ import './style.css';
 export class NewsInfo extends React.Component{
     render(){
         return(
-        <>
-            <h1><span className="purple">Be the change</span>, donate to women in need blah blah. </h1>
-            <p className='body22'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Maecenas mattis volutpat felis vitae dignissim. Nullam eget 
-                quam dui. Sed sit amet odio lacinia, malesuada justo vitae, 
-                sollicitudin massa. Nam pretium vestibulum sollicitudin. Curabitur
-                lobortis at dolor id porta. Aliquam lobortis erat nibh, nec
-                porta dui fringilla in.
-            </p>
-            <Button variant="contained" color="primary">Volunteer</Button>
-        </>
+            <div className='aye'> 
+                <h1><span className="purple">Be the change</span>, donate to women in need blah blah. </h1>
+                <div>
+                    <p className='body22'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas mattis volutpat felis vitae dignissim. Nullam eget 
+                        quam dui. Sed sit amet odio lacinia, malesuada justo vitae, 
+                        sollicitudin massa. Nam pretium vestibulum sollicitudin. Curabitur
+                        lobortis at dolor id porta. Aliquam lobortis erat nibh, nec
+                        porta dui fringilla in.
+                    </p>
+                    <p className='body22'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis vitae dignissim. Nullam eget quam dui.
+                    </p>
+                </div>
+                <button className='volunteer'>Volunteer</button>
+            </div>
         )
     }
 }
@@ -31,13 +36,15 @@ export class NewsSign extends React.Component{
        
         return(
                 <div className='colored-box'>
-                    <div> 
-                        <h2>Sign up for our mailing list</h2>
-                        <p className='body20'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
-                    </div>
-                    <div>
-                        <InputField/>
-                        <Button variant="contained" color="primary">Join the Mailing List</Button>
+                    <div className='colored-content'>
+                        <div> 
+                            <h2>Sign up for our mailing list</h2>
+                            <p className='body20'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
+                        </div>
+                        <div>
+                            <InputField/>
+                            <Button variant="contained" color="primary">Join the Mailing List</Button>
+                        </div>
                     </div>
                 </div>
         )
