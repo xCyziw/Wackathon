@@ -7,6 +7,7 @@ import NewsLetter from "./components/NewsLetter/index";
 import DropOff from './pages/DropOff';
 import Mission from "./components/Mission/index";
 import Footer from "./components/Footer/index";
+import Impact from "./components/Impact/index"
 
 class App extends Component {
   render() {
@@ -20,9 +21,9 @@ class App extends Component {
         </Router>
         <NewsLetter />
         <Mission />
+        <Impact />
         <Footer />
-        
-      </>
+        </>
     );
   }
 }
