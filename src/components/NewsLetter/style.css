@@ -1,21 +1,5 @@
-.colored-box{
-    display: flex;
-    flex-direction: column;
-    padding: 64px;
 
-    position: static;
-    width: 450px;
-    height: 633px;
-    left: 862px;
-    top: 64px;
-
-    background: #E4A13C;
-    border-radius: 0px 32px 32px 32px;
-
-    flex: none;
-    order: 1;
-    align-self: center;
-    margin: 98px 0px;
+.purple{
+    color: #A8177F;
 }
-
 

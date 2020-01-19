@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import InputField from './input';
+import './style.css';
 
 //newsInfo 
 //newsSign
@@ -9,8 +10,8 @@ export class NewsInfo extends React.Component{
     render(){
         return(
         <>
-            <h1>Be the change, donate to women in need blah blah. </h1>
-            <p>
+            <h1><span className="purple">Be the change</span>, donate to women in need blah blah. </h1>
+            <p className='body22'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Maecenas mattis volutpat felis vitae dignissim. Nullam eget 
                 quam dui. Sed sit amet odio lacinia, malesuada justo vitae, 
@@ -32,7 +33,7 @@ export class NewsSign extends React.Component{
                 <div className='colored-box'>
                     <div> 
                         <h2>Sign up for our mailing list</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
+                        <p className='body20'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
                     </div>
                     <div>
                         <InputField/>
