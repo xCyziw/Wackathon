@@ -10,7 +10,7 @@ class App extends Component {
       <>
       
         <NavBar />
-        <Home />
+        <Home className="page-container" />
         
       </>
     );

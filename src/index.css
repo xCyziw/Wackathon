@@ -64,10 +64,9 @@ h2{
 
 }
 
-@media (min-width: 1337px) {
+
   .page-container {
     max-width: 1184px;
     margin-right: auto;
     margin-left: auto;
   }
-}
