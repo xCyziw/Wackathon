@@ -12,7 +12,7 @@ class index extends Component {
                     <div className="row">
                         <div className="column">
                             <h1>Welcome</h1>
-                            <p className="info">
+                            <p className="homeInfo">
                                 Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras enim elit, mattis ac magna non
                         </p>
                             <button className="button-round-primary">Learn More</button>
