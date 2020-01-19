@@ -9,7 +9,7 @@ export class NewsInfo extends React.Component{
     render(){
         return(
             <div className='aye'> 
-                <h1 className="linebreak"><span className="purple">Be the change</span>, donate to women in need blah blah. </h1>
+                <h1 className="linebreak"><span className="purple">Be the change</span>, donate to women and children in need! </h1>
                 <div>
                     <p className='body22 linebreak'>
                         Sign up for our weekly newsletter to keep up with current <b>Uplift(ing)</b> events. By subscribing to the Uplift newsletter we will update you on our journey 

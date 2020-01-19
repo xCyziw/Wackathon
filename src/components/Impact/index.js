@@ -21,15 +21,15 @@ class index extends Component {
                     <div className="impacts">
                         <div className="two-column">
                             <div className="item1">
-                                <h2>Impact number one</h2>
+                                <h2>Equipping women with resources</h2>
                                 <div className="line2" />
                                 <div className="body20">
-                                We have helped over 200 homeless women as of 2020
+                                We have helped over 200 homeless women get off the streets and into shelters and homes.
                                 </div>
                                 <button className="button-round-primary">Learn more</button>
                             </div>
                             <div className="item2">
-                            <h2>Impact number two</h2>
+                            <h2>Furnishing local shelters</h2>
                                 <div className="line2" />
                                 <div className="body20">
                                 We have relocated more than 500 pieces of furniture to homeless shelters.
