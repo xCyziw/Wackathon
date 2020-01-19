@@ -34,7 +34,7 @@ export class NewsSign extends React.Component{
                     <div className='colored-content'>
                         <div> 
                             <h2 className="linebreak-small">Sign up for our mailing list</h2>
-                            <p className='body20 linebreak'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
+                            <p className='body20 linebreak'>Enter your first name, last name and email</p>
                         </div>
                         <div>
                             <InputField/>

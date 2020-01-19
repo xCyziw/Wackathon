@@ -10,14 +10,12 @@ class index extends Component {
             <div className="impact-container">
                 <div className="impact">
                     <div className="impactRow">
-                        <h1>Our impact for women</h1>
+                        <h1>Our Impact</h1>
                         <div className="line"></div>
                     </div>
                     
                         <div >
-                            <p className="impactInfo">Nam condimentum magna non tellus tempus, ac commodo ipsum sagittis. Sed arcu felis, bibendum vitae arcu non, 
-                                vestibulum venenatis velit. Donec venenatis venenatis elementum. Nullam efficitur libero ligula, quis vehicula 
-                                nulla mattis sed. Cras finibus lobortis elementum.
+                            <p className="impactInfo"> As of 2020 we have helped over 200 households and divorced women in need. We have furnished more than 300 rooms in the Seattle Area with the help of our volunteers. We hope to be able to continue to grow and make a bigger impact in our quest to defeat homelessness in Seattle.
                             </p>
                         </div>
                     <div className="impacts">
@@ -26,7 +24,7 @@ class index extends Component {
                                 <h2>Impact number one</h2>
                                 <div className="line2" />
                                 <div className="body20">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac arcu nunc. Aenean justo nisl, consectetur sed lobortis et, ultricies ut orci. 
+                                We have helped over 200 homeless women as of 2020
                                 </div>
                                 <button className="button-round-primary">Learn more</button>
                             </div>
@@ -34,7 +32,7 @@ class index extends Component {
                             <h2>Impact number two</h2>
                                 <div className="line2" />
                                 <div className="body20">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac arcu nunc. Aenean justo nisl, consectetur sed lobortis et, ultricies ut orci. 
+                                We have relocated more than 500 pieces of furniture to homeless shelters.
                                 </div>
                                 <button className="button-round-primary">Learn more</button>
                             </div>
