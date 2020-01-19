@@ -8,6 +8,11 @@ body {
   color: #222222;
 }
 
+a {
+  color: #A8177F;
+  text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
