@@ -15,9 +15,9 @@ export default function Inputs() {
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
-           <Input variant='filled' label="First Name" inputProps={{ 'aria-label': 'description' }} />
-           <Input variant='filled' label="Last Name" inputProps={{ 'aria-label': 'description' }} />
-            <Input variant='filled' label="Email" inputProps={{ 'aria-label': 'description' }} />
+           <Input variant='filled' label="First Name" inputProps={{ 'aria-label': 'description' }} className="custom-input" />
+           <Input variant='filled' label="Last Name" inputProps={{ 'aria-label': 'description' }} className="custom-input" />
+          <Input variant='filled' label="Email" inputProps={{ 'aria-label': 'description' }} className="custom-input" />
     </form>
     
   );
