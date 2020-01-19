@@ -10,7 +10,7 @@ class index extends Component {
             <div className="impact-container">
                 <div className="impact">
                     <div className="impactRow">
-                        <h1>[Vision statement here blahablahdsaklfslfj alkfjaslfjlsajfljslf jlajflajf]</h1>
+                        <h1>Our impact blah blah</h1>
                         <div className="line"></div>
                     </div>
                     
