@@ -1,3 +1,7 @@
+a {
+    color: #222222;
+    text-decoration: none;
+}
 .MuiToolbar-gutters {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -23,8 +27,16 @@
     box-shadow: none !important;
 }
 
+.donate a {
+    color: #2F65A5;
+}
+.donate a:hover {
+    color: #A8177F;
+    transition: 0.3s ease-in-out;
+}
+
 .donate {
-    color: white;
+    
     background-color: inherit;
     padding: 10px 24px !important;
     border: 2px solid #2F65A5;;
@@ -48,14 +60,15 @@
 }
 
 .donate:hover {
-    transition: 0.5s ease-in-out;
-    color: #ffffff !important;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
-    border: 2px solid #ffffff;
+    border: 2px solid #A8177F;
+    color: #A8177F !important;
 }
 
-.navButton:hover {
-    transition: 0.5s ease-in-out;
-    color: #ffffff !important;
+.navButton a:hover {
+    transition: 0.3s ease-in-out;
     cursor: pointer;
+    color: #A8177F !important;
 }
+

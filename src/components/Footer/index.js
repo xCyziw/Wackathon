@@ -1,11 +1,11 @@
 import React from 'react';
-import Facebook from "../../icons/iconfinder_facebook_circle_color_107175 1.svg";
-import Ig from "../../icons/iconfinder_instagram_circle_color_107172 1.svg";
-import Twitter from "../../icons/iconfinder_twitter_circle_color_107170 1.svg";
-import Youtube from "../../icons/iconfinder_youtube_circle_color_107167 1.svg";
+import Facebook from "../../assets/icons/iconfinder_facebook_circle_color_107175 1.svg";
+import Ig from "../../assets/icons/iconfinder_instagram_circle_color_107172 1.svg";
+import Twitter from "../../assets/icons/iconfinder_twitter_circle_color_107170 1.svg";
+import Youtube from "../../assets/icons/iconfinder_youtube_circle_color_107167 1.svg";
 
 
-export class index extends React.component{
+class index extends React.Component{
     render(){
         return(
             <footer>
@@ -28,3 +28,5 @@ export class index extends React.component{
         )
     }
 }
+
+export default index;

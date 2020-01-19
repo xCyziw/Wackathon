@@ -6,6 +6,7 @@ import Home from "./components/Home"
 import NewsLetter from "./components/NewsLetter/index";
 import DropOff from './pages/DropOff';
 import Mission from "./components/Mission/index";
+import Footer from "./components/Footer/index";
 
 class App extends Component {
   render() {
@@ -17,7 +18,10 @@ class App extends Component {
           <Route exact path='/donate' component={DropOff} />
           {/* <Route exact path='/volunteer' component={Volunteer} /> */}
         </Router>
+        <NewsLetter />
         <Mission />
+        <Footer />
+        
       </>
     );
   }
