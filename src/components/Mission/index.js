@@ -12,7 +12,7 @@ class index extends Component {
             <div className="container">
                 <div className="mission">
                     <div className="missionRow">
-                        <h1>[Uplifting women and children coming out of homelessness]</h1>
+                        <h1>Uplifting women and children coming out of homelessness</h1>
                         <div className="line"></div>
                     </div>
                     <div>
