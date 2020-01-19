@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import './style.css';
 import Woman from "../../assets/images/img-2.jfif";
 import Family from "../../assets/images/img-1.jpg";
+import NewsLetter from "../../components/NewsLetter/index";
 import Mission from '../../components/Mission';
 import Impact from '../../components/Impact';
+import Footer from "../../components/Footer/index";
+
 class index extends Component {
     render() {
         return (
@@ -21,10 +24,13 @@ class index extends Component {
                             <img src={Woman} alt="woman" className="woman" />
                             <img src={Family} alt="family" className="family" />
                         </div>
-
                     </div>
                 </div>
                 
+                <NewsLetter />
+                <Mission />
+                <Impact />
+                <Footer />
             </>
         );
     }
