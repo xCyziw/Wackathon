@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Wackathon/static/css/main.5502028a.chunk.css",
+    "main.js": "/Wackathon/static/js/main.a77904fd.chunk.js",
+    "main.js.map": "/Wackathon/static/js/main.a77904fd.chunk.js.map",
+    "runtime-main.js": "/Wackathon/static/js/runtime-main.dc342598.js",
+    "runtime-main.js.map": "/Wackathon/static/js/runtime-main.dc342598.js.map",
+    "static/js/2.7841b0c4.chunk.js": "/Wackathon/static/js/2.7841b0c4.chunk.js",
+    "static/js/2.7841b0c4.chunk.js.map": "/Wackathon/static/js/2.7841b0c4.chunk.js.map",
+    "index.html": "/Wackathon/index.html",
+    "precache-manifest.bd1053cc1e28338925b149911764c0b2.js": "/Wackathon/precache-manifest.bd1053cc1e28338925b149911764c0b2.js",
+    "service-worker.js": "/Wackathon/service-worker.js",
+    "static/css/main.5502028a.chunk.css.map": "/Wackathon/static/css/main.5502028a.chunk.css.map",
+    "static/js/2.7841b0c4.chunk.js.LICENSE": "/Wackathon/static/js/2.7841b0c4.chunk.js.LICENSE",
+    "static/media/iconfinder_facebook_circle_color_107175 1.svg": "/Wackathon/static/media/iconfinder_facebook_circle_color_107175 1.3dba8f9a.svg",
+    "static/media/iconfinder_instagram_circle_color_107172 1.svg": "/Wackathon/static/media/iconfinder_instagram_circle_color_107172 1.21f0e4b5.svg",
+    "static/media/iconfinder_twitter_circle_color_107170 1.svg": "/Wackathon/static/media/iconfinder_twitter_circle_color_107170 1.8dfb6adf.svg",
+    "static/media/iconfinder_youtube_circle_color_107167 1.svg": "/Wackathon/static/media/iconfinder_youtube_circle_color_107167 1.780cfbbe.svg",
+    "static/media/img-1.jpg": "/Wackathon/static/media/img-1.6f2296fa.jpg",
+    "static/media/img-2.jfif": "/Wackathon/static/media/img-2.cd5277d8.jfif",
+    "static/media/img-3.jfif": "/Wackathon/static/media/img-3.46bdb7b3.jfif",
+    "static/media/img-4.jfif": "/Wackathon/static/media/img-4.a0dab718.jfif",
+    "static/media/img-5.jfif": "/Wackathon/static/media/img-5.6c8041bc.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc342598.js",
+    "static/js/2.7841b0c4.chunk.js",
+    "static/css/main.5502028a.chunk.css",
+    "static/js/main.a77904fd.chunk.js"
+  ]
+}
