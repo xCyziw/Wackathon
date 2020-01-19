@@ -1,4 +1,7 @@
-
+.MuiToolbar-gutters {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
 .menuButton {
     margin-right: 2px;
@@ -10,7 +13,6 @@
     color: #2F65A5;
     font-size: 40px !important;
     font-family: "Poppins", sans-serif !important;
-    margin-left: 50px !important;
 }
 
 .bar {
@@ -22,28 +24,27 @@
 }
 
 .donate {
-    height: 50px;
-    width: 170px;
     color: white;
     background-color: inherit;
-    padding: 7px;
+    padding: 10px 24px !important;
     border: 2px solid #2F65A5;;
     border-radius: 99px;
+    font-family: 'Open Sans', sans-serif !important;
     color: #2F65A5;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .navButton {
-    color: #2F65A5 !important;
-    font-weight: bold !important;
-    margin-right: 20px !important;
+    color: #222222 !important;
+    font-weight: normal !important;
     font-size: 18px !important;
     font-family: 'Open Sans', sans-serif !important;
     height: 100%;
     background-color: inherit;
     border: none;
-    padding: 10px;
+    padding: 10px 48px 10px 0;
+    line-height: 25px !important;
 }
 
 .donate:hover {
