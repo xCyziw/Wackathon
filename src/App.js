@@ -10,10 +10,9 @@ class App extends Component {
   render() {
     return (
       <>
-
         <Router basename={ process.env.PUBLIC_URL }>
           <NavBar />
-          <Route exact path='/' className="page-container" component={Home} />
+          <Route exact path='/' component={Home} className="page-container" />
           <Route exact path='/donate' component={DropOff} />
           {/* <Route exact path='/volunteer' component={Volunteer} /> */}
         </Router>
