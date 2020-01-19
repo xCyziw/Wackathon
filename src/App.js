@@ -3,17 +3,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from "./components/Navbar/index";
 import Home from "./components/Home"
-import NewsLetter from "./components/NewsLetter/index";
-import Mission from "./components/Mission/index";
 import DropOff from './pages/DropOff'
 
 class App extends Component {
   render() {
     return (
       <>
-        <NavBar />
-        <Home />
-        <NewsLetter/>
         <Router basename={ process.env.PUBLIC_URL }>
           <NavBar />
           <Route exact path='/' component={Home} className="page-container" />
