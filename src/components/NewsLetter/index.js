@@ -1,12 +1,11 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
-import Input from '@material-ui/core/Input';
+import InputField from './input';
 
 //newsInfo 
 //newsSign
 //newsFormatted
-export class newsInfo extends React.Component{
+export class NewsInfo extends React.Component{
     render(){
         return(
         <>
@@ -25,42 +24,36 @@ export class newsInfo extends React.Component{
     }
 }
 
-export class newsSign extends React.Component{
+
+export class NewsSign extends React.Component{
     render(){
-        const useStyles = makeStyles(theme => ({
-            root: {
-              '& > *': {
-                margin: theme.spacing(1),
-                width: 200,
-              },
-            },
-          }));
-        const classes = useStyles();
+       
         return(
-                <div class='colored-box'>
+                <div className='colored-box'>
                     <div> 
                         <h2>Sign up for our mailing list</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
                     </div>
                     <div>
-                        <form className={classes.root} noValidate autoComplete="off">
-                            <Input placeholder="First Name" inputProps={{ 'aria-label': 'description' }} />
-                            <Input placeholder="Last Name" inputProps={{ 'aria-label': 'description' }} />
-                            <Input placeholder="Email" inputProps={{ 'aria-label': 'description' }} />
-                        </form>
-                        <Button variant="contained" color="primary">Volunteer</Button>
+                        <InputField/>
+                        <Button variant="contained" color="primary">Join the Mailing List</Button>
                     </div>
                 </div>
         )
     }
 }
 
-export class newsFormatted extends React.Component{
+class index extends React.Component{
     render(){
         return(
-
+            <div className='news'>
+                <NewsInfo/>
+                <NewsSign/>
+            </div>
         )
     }
 }
+
+export default index;
 
 
