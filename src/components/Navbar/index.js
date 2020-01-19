@@ -16,7 +16,7 @@ class index extends Component {
                             Uplift
                         </Typography>
                         <button className="navButton"><Link to='/'>Mission</Link></button>
-                        <button className="navButton"><Link to='/volunteer'>Volunteer</Link></button>
+                        <button className="navButton"><Link to='/'>Volunteer</Link></button>
                         <button className="donate"><Link to='/donate'>Donate Furniture</Link></button>
                     </Toolbar>
                 </AppBar>
