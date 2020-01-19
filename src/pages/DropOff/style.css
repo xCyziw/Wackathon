@@ -1,5 +1,13 @@
-.container {
-  background: #C4C4C4;
+.locations-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+  position: absolute;
+  width: 592px;
+  height: 481px;
+  left: 720px;
+  top: 255px;
 }
 
 .locations{
@@ -26,6 +34,11 @@
   position: absolute;
 }
 
+.container1 {
+  width: 100%;
+  height: auto;
+  background: #C4C4C4;
+}
 
 .info{
   display: flex;

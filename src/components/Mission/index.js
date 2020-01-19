@@ -12,15 +12,13 @@ class index extends Component {
             <div className="container">
                 <div className="mission">
                     <div className="missionRow">
-                        <h1>[Vision statement here blahablahdsaklfslfj alkfjaslfjlsajfljslf jlajflajf]</h1>
+                        <h1>[Uplifting women and children coming out of homelessness]</h1>
                         <div className="line"></div>
                     </div>
                     <div>
                         <div >
                             <h2 className="missionTitle">MISSION</h2>
-                            <p className="missionInfo">Nam condimentum magna non tellus tempus, ac commodo ipsum sagittis. Sed arcu felis, bibendum vitae arcu non, 
-                                vestibulum venenatis velit. Donec venenatis venenatis elementum. Nullam efficitur libero ligula, quis vehicula 
-                                nulla mattis sed. Cras finibus lobortis elementum.
+                            <p className="missionInfo">Uplift is a local nonprofit that creates warm and welcoming homes for women and children coming out of homelessness. We collect donated bedding, decorative home furnishings, pantry items and kitchen tools to providea fully equipped, safe, and comfortable home from which they can recover from trauma and launch into their new lives. Our mission is to show community support and encouragement by providing a cheerful, decorated home where a new journey can begin with confidence and hope.
                             </p>
                         </div>
                     </div>
