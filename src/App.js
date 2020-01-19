@@ -19,7 +19,6 @@ class App extends Component {
           <Route exact path='/donate' component={DropOff} />
           {/* <Route exact path='/volunteer' component={Volunteer} /> */}
         </Router>
-        <NewsLetter />
         <Mission />
         <Impact />
         <Footer />
