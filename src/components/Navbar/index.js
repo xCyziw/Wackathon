@@ -7,8 +7,9 @@ import Typography from '@material-ui/core/Typography';
 class index extends Component {
     render() {
         return (
-            <div className="navbar">
-                <AppBar position="static" className="bar" style={{background: "#D4DFEC"}} >
+            
+            <div className="navbar" style={{background: "#D4DFEC"}}>
+                <AppBar position="static" className="bar page-container" style={{background: "#D4DFEC"}} >
                     <Toolbar>
                         <Typography variant="h5" className="title">
                             Uplift
