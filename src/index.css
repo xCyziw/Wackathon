@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #222222;
 }
 
 code {
@@ -13,7 +14,7 @@ code {
 }
 
 h1{
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -23,7 +24,7 @@ h1{
 }
 
 .body22{
-font-family: Open Sans;
+font-family: 'Open Sans';
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -31,15 +32,22 @@ line-height: 30px;
 }
 
 .body20{/* body - 20 */
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 27px;
 }
+.body18 {/* body - 18 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+}
 
 h3 {
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -52,7 +60,7 @@ h3 {
 }
 
 h2{
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
