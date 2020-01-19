@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './style.css';
 import Woman from "../../assets/images/img-2.jfif";
 import Family from "../../assets/images/img-1.jpg";
-import Mission from '../../components/Mission';
-import Impact from '../../components/Impact';
 class index extends Component {
     render() {
         return (
@@ -13,8 +11,8 @@ class index extends Component {
                         <div className="column">
                             <h1>Welcome</h1>
                             <p className="homeInfo">
-                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras enim elit, mattis ac magna non
-                        </p>
+                                Uplifting homeless women and children to find a home, and to provide them with a warm and welcoming home.
+                            </p>
                             <button className="button-round-primary">Learn More</button>
                         </div>
                         <div className="column">
