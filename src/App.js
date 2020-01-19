@@ -10,6 +10,9 @@ class App extends Component {
   render() {
     return (
       <>
+        <NavBar />
+        <Home />
+        <NewsLetter/>
         <Router basename={ process.env.PUBLIC_URL }>
           <NavBar />
           <Route exact path='/' component={Home} className="page-container" />
