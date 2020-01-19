@@ -38,6 +38,19 @@ line-height: 30px;
   line-height: 27px;
 }
 
+h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 h2{
   font-family: Poppins;
   font-style: normal;
@@ -49,4 +62,12 @@ h2{
   display: flex;
   align-items: center;
 
+}
+
+@media (min-width: 1337px) {
+  .page-container {
+    max-width: 1184px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
