@@ -10,9 +10,9 @@ export class NewsInfo extends React.Component{
     render(){
         return(
             <div className='aye'> 
-                <h1><span className="purple">Be the change</span>, donate to women in need blah blah. </h1>
+                <h1 className="linebreak"><span className="purple">Be the change</span>, donate to women in need blah blah. </h1>
                 <div>
-                    <p className='body22'>
+                    <p className='body22 linebreak'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Maecenas mattis volutpat felis vitae dignissim. Nullam eget 
                         quam dui. Sed sit amet odio lacinia, malesuada justo vitae, 
@@ -24,7 +24,7 @@ export class NewsInfo extends React.Component{
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis vitae dignissim. Nullam eget quam dui.
                     </p>
                 </div>
-                <button className='volunteer'>Volunteer</button>
+                <button className='button-round-secondary'>Volunteer</button>
             </div>
         )
     }
@@ -38,12 +38,12 @@ export class NewsSign extends React.Component{
                 <div className='colored-box'>
                     <div className='colored-content'>
                         <div> 
-                            <h2>Sign up for our mailing list</h2>
-                            <p className='body20'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
+                            <h2 className="linebreak-small">Sign up for our mailing list</h2>
+                            <p className='body20 linebreak'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis volutpat felis</p>
                         </div>
                         <div>
                             <InputField/>
-                            <Button variant="contained" color="primary">Join the Mailing List</Button>
+                            <button className='button-fullwidth'>Join the mailing list</button>
                         </div>
                     </div>
                 </div>

@@ -36,30 +36,18 @@
     
 }
 
-.volunteer{
-    display: flex;
-    flex-direction: row;
-    padding: 8px 24px;
-    position: static;
-    width: 134px;
-    height: 48px;
-    left: 0px;
-    top: 474px;
-    background: #F1F1F1;
-    border-radius: 99px;
-    flex: none;
-    order: 3;
-    align-self: flex-start;
-    border:none;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    color: #A8177F;
+.linebreak {
+    margin-bottom: 32px;
 }
-
+.linebreak-small {
+    margin-bottom: 16px;
+}
 input{
     margin-bottom: 1rem;
+}
+.custom-input {
+    background-color: #ffffff !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 24px !important;
 }
