@@ -1,14 +1,38 @@
 .footerLinks{
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.footerLinks a{
+    color: white;
+    margin-right: 64px;
+    align-self: center;
+    font-size: 18px;
+
 
 }
 
 .footerIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 32px;
+}
 
+.footerIcons img{
+    margin-right: 16px;;
 }
 
 footer {
     background-color: #2F65A5;
     width: 1440px;
     height: 221px;
+}
+
+footer div{
+    padding: 64px 481.5px 64px 481.5px
 }
