@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavBar from "./components/Navbar/index";
-import Home from "./components/Home/index";
 import NewsLetter from "./components/NewsLetter/index";
+import DropOff from './components/DropOff';
 
 class App extends Component {
   render() {
     return (
       <>
         <NavBar />
-        <Home />
+        <NewsLetter />
+        <DropOff />
       </>
     );
   }
