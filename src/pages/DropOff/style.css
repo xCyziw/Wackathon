@@ -1,0 +1,79 @@
+.container {
+  background: #C4C4C4;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+  position: absolute;
+  width: 372px;
+  height: 129px;
+  left: 125px;
+  top: 999px;
+}
+
+.firstName{
+  position: absolute;
+  width: 322px;
+  height: 78px;
+  left: 125px;
+  top: 1164px;
+}
+
+.lastName{
+  position: absolute;
+  width: 322px;
+  height: 78px;
+  left: 125px;
+  top: 1268px;
+}
+
+.furniture{
+  position: absolute;
+  width: 322px;
+  height: 78px;
+  left: 125px;
+  top: 1372px;
+}
+
+.picture{
+  position: absolute;
+width: 62px;
+height: 22px;
+left: 592px;
+top: 1164px;
+
+
+
+/* button-fullwidth */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+padding: 12px 10px;
+
+position: absolute;
+width: 322px;
+height: 46px;
+left: 592px;
+top: 1196px;
+
+/* blue */
+}
+
+.btn{
+  background: #2F65A5;
+  border-radius: 8px;
+}
+
+.drop{
+  position: absolute;
+  width: 322px;
+  height: 78px;
+  left: 1023px;
+  top: 1164px;
+}
